@@ -1,0 +1,103 @@
+This section will delve into the Artificial Intelligence Act, a 85 articles regulation proposed in 2021 by the European Union on the development and use of artificial intelligence systems in the EU market. \newline
+The AI Act aims to create a comprehensive framework to ensure the safe and lawful development and use of AI systems in the EU, while protecting fundamental rights and promoting innovation in the AI field.
+\subsection{Amendments} \label{sec:Amendments}
+The Council of the European Union (hereinafter “Council”) and the European Parliament (hereinafter “Parliament”) are involved. Negotiations between EU lawmakers are ongoing to finalize the legislation, which includes amendments to the Commission's proposal. The final text is expected to be formally adopted by Spring 2024, and there will be a two-year-long transitional period before the regulation becomes applicable.
+\section{The Risk-Based Approach} \label{sec:Risk-Based}
+The AI Act adopts a risk-based approach, distinguishing between AI systems posing unacceptable risk, high risk, limited risk, and low or minimal risk. However, there are concerns that it would not guarantee a high level of protection of fundamental rights. For instance, it would allow for AI systems with residual risks (e.g. low or minimal risk AI systems) to enter the EU market and the rules established for prohibited and high-risk practices may prove ineffective in practice because the risk level is mostly self-assessed by providers. High-risk AI systems have adverse impacts on safety and fundamental rights and would have to adhere to certain requirements (such as transparency, human oversight, and the establishment of a risk assessment system). Limited risk would have to comply with light transparency obligations, whereas low or minimal risk AI systems would not have to comply with specific obligations but would be encouraged to adopt voluntary codes of conduct.
+
+\section{Scope of Application of the Regulation} \label{sec:Regulation-Scope}
+\subsection{To whom will it apply?}
+The regulation will apply to AI systems utilized within the EU. Furthermore, it will also apply to providers and users of AI systems located in a third country, where the output produced by those systems is used in the EU (art. 2).
+
+\subsection{To what sectors?}
+The AI Act is a horizontal regulation; therefore, it applies (art. 2) to all sectors which are not explicitly excluded, i.e. AI systems developed or used exclusively for military purposes or by public authorities in a third country.
+
+\subsection{Which systems will be involved?}
+According to article 83, the AI Act will apply to newly high-risk AI systems introduced in the EU market (i.e. placed on the market or put into service) or AI systems undergoing significant changes in their design or intended purpose.
+
+\section{Definition of Artificial Intelligence}
+The definition of AI is highly controversial in the legal realm and even in computer science. A narrow definition (e.g. limiting the application of the AI Act to machine learning) would target the most advanced techniques (which are arguably more problematic because of the so-called black box problem) and would impose the design and development obligations only to their providers, thus reducing negative effects on the broad AI and software market.
+\newline
+On the other hand, a broad definition would ensure that even rule-based systems do not present risks to rights and safety. Indeed, for the impacted person, the output is equally obscure and racial and gender biases in software predate the diffusion of machine learning techniques.
+
+\section{Prohibited Practices (Unacceptable Risk)} \label{sec:Unacceptable-risk}
+Prohibited practices posing unacceptable risks are explicitly banned from the EU internal market. The Commission identified five prohibited practices, which are listed in article 5 (Title II). The Parliament has also proposed the prohibition of:
+\begin{enumerate}[label=(\roman*)]
+    \item Biometric categorization systems that identify sensitive traits (such as gender, race, ethnicity, citizenship status, religion, and political beliefs).
+    \item Predictive policing tools based on personal traits or characteristics, location, or past behavior.
+    \item Emotion detection systems employed in law enforcement, border controls, workplaces, and educational settings.
+    \item AI technologies that gather biometric data from social media or CCTV to form facial recognition databases.
+\end{enumerate}
+
+\subsection{'Real-time' Remote Biometric Identification Systems}
+Real-time facial biometric identification systems for law enforcement purposes would be prohibited in publicly accessible spaces, unless:
+\begin{itemize}
+    \item It is required for the targeted search of the victim of a crime, prevention of a substantial and imminent threat, or the execution of a European warrant; and
+    \item Has been approved with appropriate prior judicial or administrative authorizations after a reasoned request.
+\end{itemize}
+The Parliament proposes excluding any exception to this prohibition and extending it to any purpose. Notably, other types of facial recognition systems used for purposes such as border control, public transport, and schools could be permitted as a high-risk AI system.
+
+\subsection{Social Scoring by Public Authorities} \label{sec:social-scoring}
+The AI Act defines social scoring as the "evaluation or classification of the trustworthiness of natural persons over a certain period of time based on their social behavior or known or predicted personal or personality characteristics" (art. 5, para 1). This practice, when carried out by public authorities (or on their behalf), is prohibited if, as a consequence, the public authority treats in an unfavorable or detrimental manner natural persons or groups:
+\begin{itemize}
+    \item In social context unrelated to the one in which the data to calculate the score was obtained; and/or
+    \item The treatment was unjustified or disproportionate to the social behavior or its gravity.
+\end{itemize}
+
+\subsection{Deployment of Harmful Manipulative Subliminal Techniques}
+The AI Act prohibits the deployment of subliminal techniques generating a material distortion of the behavior of a person.
+
+\subsection{Exploitation of Specific Vulnerable Groups}
+The exploitation of vulnerabilities of a specific group of persons identified due to their age, physical, or mental disability is prohibited when it generates the material distortion of the behavior.
+
+\section{High-Risk AI Systems}\label{sec:High-risk-sys}
+High-risk AI systems follow the regulatory template of the New Legislative Framework for product safety. They can enter the market or be put into service only after the system is compliant with \hyperref[sec:High-risk-req]{requirements} and they undergo a \hyperref[sec:Conformity-assessment]{conformity assessment}. Then, the AI system can enter the market.
+
+\subsection{What AI systems are high-risk?}
+AI systems are identified as high risk when either:
+\begin{itemize}
+    \item They are safety components of a regulated product or they are themselves the regulated product, which may be subject to third-party assessment under the relevant sectorial legislation listed in Annex II; or
+    \item They are implemented in specific use cases included within the areas listed in Annex III.
+\end{itemize}
+
+\subsection{High-Risk Requirements} \label{sec:High-risk-req}
+The requirements for high-risk AI systems include:
+\begin{enumerate}[label=(\alph*)]
+    \item Establishing a risk management system (article 9) to ensure the elimination or reduction of risks to health, safety, and fundamental rights through adequate design, development, and testing.
+    \item Ensuring proper data governance (article 10) by establishing quality criteria for training, validation, and testing of datasets used in training the model.
+    \item Drawing and maintaining technical documentation (article 11) demonstrating the compliance of the high-risk AI system.
+    \item Keeping a record of logs (article 12) to ensure traceability of the system by automatically recording events ('logs') while the AI system is operating.
+    \item Ensuring transparency and provision of information to users (article 13) by designing and developing high-risk AI systems to allow users to interpret and use the output appropriately.
+    \item Setting up human oversight measures (article 14) as an implementation of the human-in-the-loop principle.
+    \item Ensuring accuracy, robustness, and cybersecurity (article 15) by maintaining an appropriate level of accuracy, robustness, and cybersecurity consistent with the intended purpose of the AI system throughout its lifecycle. These aspects should be declared in the accompanying instructions for use. Additionally, the resilience of high-risk AI systems should address errors, faults, or inconsistencies within the system or the environment.
+    \item Allowing oversight from natural persons (article 15) by AI systems, including the incorporation of appropriate interfacing tools within the system by the provider when feasible. Natural persons overseeing the system should:
+    \begin{enumerate}[label=(\roman*)]
+        \item Understand the capabilities and limitations of the AI system, including automation bias, and monitor its operation.
+        \item Ignore, override, or reverse the result of the high-risk AI system.
+        \item Correctly interpret the high-risk AI system’s output.
+        \item Intervene in the operation of the high-risk AI system or interrupt the system through a "stop" button or a similar procedure.
+    \end{enumerate}
+\end{enumerate}
+
+\subsection{Conformity Assessment} \label{sec:Conformity-assessment}
+The Conformity assessment (art. 19) is the procedure that verifies the compliance of a high-risk AI system. Compliance is assessed by either the provider itself or by a third-party, i.e., a conformity assessment body pursuant.
+
+\section{Limited Risk Systems} \label{sec:Limited-risk-sys}
+AI systems presenting a limited risk (art. 52) would be subject to a limited set of transparency obligations regarding the nature of the AI system or of the output thereof:
+\begin{itemize}
+    \item Natural persons interacting with AI systems intended to interact with natural persons (e.g., chatbots) must be informed (and the systems must be designed and developed accordingly) that they are interacting with an AI system.
+    \item Natural persons must be informed by the user that they are exposed to an emotion recognition or biometric categorization system. Biometric categorization systems used to detect, prevent, investigate, and prosecute criminal offenses are exempted.
+    \item Users of deep fakes must disclose the artificial nature of the content. The Parliament proposed specifying that the disclosure should be appropriate, timely, clear, and visible. With regard to deep fakes, the Parliament proposes to label the content in a clearly visible way to inform of the inauthenticity.
+\end{itemize}
+
+\section{Low/Minimum Risk Systems} \label{sec:low-risk-sys}
+Low or minimal risk (art. 69) AI systems presenting only low or minimal risk (e.g., spam filters or video games) could be developed and used in the EU without additional legal obligations. However, the proposed AI Act encourages providers of non-high-risk AI systems to voluntarily apply the \hyperref[sec:High-risk-req]{mandatory requirements for high-risk AI systems} by adopting codes of conduct.
+
+\section{General Purpose AI Systems} \label{sec:GPAI-sys}
+The regulation of general purpose AI systems (“GPAIs”) will arguably be one of the most contentious themes in the trilogue negotiations. The Commission proposal (back in April 2021) did not regulate GPAIs. However, the Council proposes to regulate GPAIs when they fall under the high-risk category (art. 4a). As the high-risk requirements are highly purpose-oriented, they could not be implemented as is for GPAIs. The Parliament distinguishes between GPAIs and foundation models and decides only to regulate the latter. Additionally, generative models, like Chat GPT, must disclose if the content was AI-generated rather than human-made, ensure their models don't produce unlawful content, and release information regarding copyrighted training data usage.
+
+\section{Measures to Support Innovation}
+Measures to support innovation include the establishment of regulatory sandboxes for the development and testing of innovative AI systems. These sandboxes create a controlled environment for the development, testing, and validation of innovative AI systems before they enter the market. The Council supports the possibility of supervised testing also under real-world conditions.
+
+\section{Governance and Enforcement}
+Providing for a robust monitoring and evaluation mechanism is crucial to ensure that the proposal will be effective in achieving its specific objectives. The governance and enforcement structure put into place by the AI Act operates at two levels, European and National. At the European level, the AI Act establishes a system for registering stand-alone high-risk AI applications in a public EU-wide database and a European Artificial Intelligence Board for supervising the application and implementation of the regulation. At the national level, the notifying authority authorizes notified bodies to carry out conformity assessments and controls their operations, mainly overseeing and coordinating functions between the national authorities and the Commission.

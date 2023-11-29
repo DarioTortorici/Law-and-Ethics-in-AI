@@ -1,0 +1,74 @@
+\documentclass[epsfig,a4paper,11pt,title]{book}
+\usepackage{epsfig}
+\usepackage{plain}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage[paperheight=29.7cm,paperwidth=21cm,outer=1.5cm,inner=1.5cm,top=2cm,bottom=2cm]{geometry} %layout
+\usepackage{titlesec} % Custom chapters title
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,    % Color of internal links
+    urlcolor=cyan      % Color of external links
+}
+
+\makeindex
+
+\titleformat{\chapter}
+    {\normalfont\Huge\bfseries}{\thechapter}{1em}{}
+        
+      \titlespacing*{\chapter}{0pt}{0.59in}{0.02in}
+      \titlespacing*{\section}{0pt}{0.20in}{0.02in}
+      \titlespacing*{\subsection}{0pt}{0.10in}{0.02in}
+
+
+\begin{document}
+
+\frontmatter
+\input{frontpage}
+
+
+\tableofcontents
+
+\mainmatter
+\chapter{AI 4 people} \index{AI 4 People}
+\input{Capitoli/AI4People} \label{sec:AI4People}
+
+\chapter{AI Discrimination}\index{AI Discrimination}
+\input{Capitoli/AIDiscrimination} \label{sec:AIDiscrimination}
+
+\chapter{Legal Personhood} \index{Legal Personhood}
+\input{Capitoli/LegalPersonhood} \label{sec:AIPersonhood}
+
+\chapter{AI Privacy} \index{AI Privacy}
+\input{Capitoli/AIPrivacy} \label{sec:AIPrivacy}
+
+
+\chapter{AI and Human Rights} \index{AI and Human Rights} \label{sec:AIHumanRights}
+\input{Capitoli/AIHumanRights}
+
+\chapter{AI Act} \index{AI Act} \label{sec:AIAct}
+\input{Capitoli/AIAct}
+
+\chapter{AI and Health} \index{AI and Health}
+\input{Capitoli/AIHealth} \label{sec:AIHealth}
+
+\chapter{AI and Public Administration} \index{AI and Public Administration} \label{sec:AIPubAdmin}
+\input{Capitoli/AIPublicAdmin}
+
+
+\chapter{AI and Civil Liability} \index{AI and Civil Liability}
+\label{sec:AICivilLiability} \input{Capitoli/AICivilLiability}
+
+\chapter{AI and Criminal Law} \index{AI and Criminal Law}
+\label{sec:AICriminalLaw} \input{Capitoli/AICriminalLaw}
+
+
+\end{document}
+
